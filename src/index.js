@@ -9,4 +9,4 @@ function test () {
     return element
 }
 
-document.body.appendChild(test());
+// document.body.appendChild(test());
