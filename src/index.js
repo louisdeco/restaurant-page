@@ -1,12 +1,6 @@
-import "./styles.css"
+import "./styles.css";
+import homePage from "./home-page";
 
-function test () {
-    const element = document.createElement("div");
-    element.textContent = "Hello, World!";
+const content = document.querySelector(".content");
 
-    element.classList.add("test")
-
-    return element
-}
-
-// document.body.appendChild(test());
+homePage(content);
