@@ -3,7 +3,7 @@ function menuPage (content) {
     background.classList.add("background");
 
     const grid = document.createElement("div");
-    grid.classList.add("menu");
+    grid.classList.add("menu-grid");
 
     const menuItems = [
         {
