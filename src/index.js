@@ -6,7 +6,7 @@ import menuPage from "./menu-page";
 const content = document.querySelector(".content");
 const aboutButton = document.querySelector(".about");
 const homeButton = document.querySelector(".home");
-const menuButton = document.querySelector(".menup");
+const menuButton = document.querySelector(".menu");
 
 homePage(content);
 
