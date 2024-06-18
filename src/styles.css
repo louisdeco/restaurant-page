@@ -241,12 +241,3 @@ nav button:hover {
 
 
 }
-
-.icon {
-    background-image: url(./github.svg);
-    height: 1.5rem;
-    width: 1.5rem;
-    flex-shrink: 0;
-    align-self: center;
-    filter: invert(95%) sepia(84%) saturate(2%) hue-rotate(8deg) brightness(112%) contrast(100%);
-}
