@@ -225,3 +225,28 @@ nav button:hover {
     text-align: center;
 }
 
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: var(--spacing-s);
+    font-weight: 450;
+    color: white;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+
+}
+
+.icon {
+    background-image: url(./github.svg);
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    align-self: center;
+    filter: invert(95%) sepia(84%) saturate(2%) hue-rotate(8deg) brightness(112%) contrast(100%);
+}
